@@ -1,0 +1,14 @@
+
+<div class="m-3">
+<p><%= params[:question] %></p>
+<p class="fst-italic">- You</p>
+
+<div class="alert alert-warning fade show">
+<p ><%= @answer %></p>
+<p class="fst-italic">- Your Coach</p>
+</div>
+
+<div class="no-deco">
+<%=  link_to "Ask a new question", ask_path %>
+</div>
+</div>
